@@ -18,11 +18,8 @@ console.log("Type Data:", types)
 //Do this three ways: function declaration, inline function expression, and arrow function.
 
 //4. Find all the cereals objects that have sodium of less than 200 AND potass of greater than 150.
-console.log(cerealData.filter(c => c.sodium < 200 && c.potass > 150))
+
 //5. Transform the array of cereal objects into an array of their Manufacture's name
-console.log(cerealData.map(c => manufacturers[c.mfr]))
+
 //6. write a function findById(num) that takes in a number as an argument and returns
 //the cereal object that has an id equal to the value of num
-function findById(num){
-  return cerealData.find(c => c.id === num)
-}
